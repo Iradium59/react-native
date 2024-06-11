@@ -1,11 +1,11 @@
 import { Text, View } from "react-native";
-import Ex1 from "./components/Ex1";
+import ListCourse from "./components/ListCourse";
 
 export default function App() {
 
     return (
         <>
-            <Ex1/>
+            <ListCourse/>
         </>
     )
 }
