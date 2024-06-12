@@ -1,6 +1,6 @@
 import React from 'react';
 import { SafeAreaView, StyleSheet } from 'react-native';
-import Calculator from './components/Calculatrice'; // Assurez-vous que le chemin est correct
+import Calculator from './components/Calculatrice';
 
 const App: React.FC = () => {
   return (
