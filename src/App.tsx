@@ -1,11 +1,22 @@
-import { Text, View } from "react-native";
-import ListCourse from "./components/ListCourse";
+import React from 'react';
+import { SafeAreaView, StyleSheet } from 'react-native';
+import Calculator from './components/Calculatrice'; // Assurez-vous que le chemin est correct
 
-export default function App() {
+const App: React.FC = () => {
+  return (
+    <SafeAreaView style={styles.container}>
+      <Calculator />
+    </SafeAreaView>
+  );
+};
 
-    return (
-        <>
-            <ListCourse/>
-        </>
-    )
-}
+const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    justifyContent: 'center',
+    alignItems: 'center',
+    backgroundColor: '#000',
+  },
+});
+
+export default App;
